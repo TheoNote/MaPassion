@@ -148,6 +148,10 @@ a:hover {
 @media(max-width:900px) {
     header ul{
         padding: 0;
+        gap: 10%;
+    }
+    header ul a{
+        margin: 0;
     }
     header, main, footer,main div{
         flex-direction: column;
